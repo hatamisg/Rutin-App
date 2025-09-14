@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072DD4152DE8243500157BF8 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 072DD4142DE8243500157BF8 /* RevenueCat */; };
+		077FAE6F2E12DE7C007790C5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E63182E123CA6002272B1 /* WidgetKit.framework */; };
+		077FAE702E12DE7C007790C5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E631A2E123CA7002272B1 /* SwiftUI.framework */; };
+		077FAE812E12DE7E007790C5 /* liveactivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 077FAE6E2E12DE7C007790C5 /* liveactivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07EA6CCD2E31DFB900171765 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E63182E123CA6002272B1 /* WidgetKit.framework */; };
+		07EA6CCE2E31DFB900171765 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E631A2E123CA7002272B1 /* SwiftUI.framework */; };
+		07EA6CDB2E31DFBC00171765 /* rutinWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 07EA6CCC2E31DFB800171765 /* rutinWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07EA6CE22E31E26300171765 /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EA6CE12E31E26300171765 /* SwiftData.framework */; };
+		07EA6CF12E31EB4A00171765 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E63182E123CA6002272B1 /* WidgetKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077FAE7F2E12DE7E007790C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A95EF22D9849F300044A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077FAE6D2E12DE7C007790C5;
+			remoteInfo = liveactivityExtension;
+		};
+		07EA6CD92E31DFBC00171765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A95EF22D9849F300044A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07EA6CCB2E31DFB800171765;
+			remoteInfo = rutinWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		076E63312E123CA9002272B1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				07EA6CDB2E31DFBC00171765 /* rutinWidgetsExtension.appex in Embed Foundation Extensions */,
+				077FAE812E12DE7E007790C5 /* liveactivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		076E63182E123CA6002272B1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		076E631A2E123CA7002272B1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		077FAE6E2E12DE7C007790C5 /* liveactivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = liveactivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A95EFA2D9849F300044A7A /* rutin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rutin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EA6CCC2E31DFB800171765 /* rutinWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = rutinWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EA6CE12E31E26300171765 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		073339882DEEECEA00F43D31 /* Exceptions for "rutin" folder in "rutin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 07A95EF92D9849F300044A7A /* rutin */;
+		};
+		077FAE852E12DE7E007790C5 /* Exceptions for "LiveActivity" folder in "liveactivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 077FAE6D2E12DE7C007790C5 /* liveactivityExtension */;
+		};
+		077FAE882E12E028007790C5 /* Exceptions for "rutin" folder in "liveactivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Localizable.strings",
+				Assets.xcassets,
+				"Extensions/Color+Hex.swift",
+				"Extensions/Foundation+Extensions.swift",
+				Extensions/TimeFormatting.swift,
+				Extensions/UniversalIconExtension.swift,
+				"Managers/AppColorManager+LiveActivity.swift",
+				Models/HabitIconColor.swift,
+				Utilities/LiveActivityTypes.swift,
+			);
+			target = 077FAE6D2E12DE7C007790C5 /* liveactivityExtension */;
+		};
+		07EA6CDF2E31DFBC00171765 /* Exceptions for "rutinWidgets" folder in "rutinWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 07EA6CCB2E31DFB800171765 /* rutinWidgetsExtension */;
+		};
+		07EA6CE42E31E31A00171765 /* Exceptions for "rutin" folder in "rutinWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: InfoPlist.strings",
+				"/Localized: Localizable.strings",
+				Assets.xcassets,
+				"Extensions/Color+Hex.swift",
+				"Extensions/Foundation+Extensions.swift",
+				Extensions/TimeFormatting.swift,
+				Extensions/UniversalIconExtension.swift,
+				Managers/AppColorManager.swift,
+				Models/Habit.swift,
+				Models/HabitCompletion.swift,
+				Models/HabitIconColor.swift,
+				Models/HabitType.swift,
+				Models/Weekday.swift,
+			);
+			target = 07EA6CCB2E31DFB800171765 /* rutinWidgetsExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		077FAE712E12DE7C007790C5 /* LiveActivity */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				077FAE852E12DE7E007790C5 /* Exceptions for "LiveActivity" folder in "liveactivityExtension" target */,
+			);
+			path = LiveActivity;
+			sourceTree = "<group>";
+		};
+		07A95EFC2D9849F300044A7A /* rutin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				073339882DEEECEA00F43D31 /* Exceptions for "rutin" folder in "rutin" target */,
+				077FAE882E12E028007790C5 /* Exceptions for "rutin" folder in "liveactivityExtension" target */,
+				07EA6CE42E31E31A00171765 /* Exceptions for "rutin" folder in "rutinWidgetsExtension" target */,
+			);
+			path = rutin;
+			sourceTree = "<group>";
+		};
+		07EA6CCF2E31DFB900171765 /* rutinWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07EA6CDF2E31DFBC00171765 /* Exceptions for "rutinWidgets" folder in "rutinWidgetsExtension" target */,
+			);
+			path = rutinWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077FAE6B2E12DE7C007790C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				077FAE702E12DE7C007790C5 /* SwiftUI.framework in Frameworks */,
+				077FAE6F2E12DE7C007790C5 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		07A95EF72D9849F300044A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				072DD4152DE8243500157BF8 /* RevenueCat in Frameworks */,
+				07EA6CF12E31EB4A00171765 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		07EA6CC92E31DFB800171765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				07EA6CCE2E31DFB900171765 /* SwiftUI.framework in Frameworks */,
+				07EA6CCD2E31DFB900171765 /* WidgetKit.framework in Frameworks */,
+				07EA6CE22E31E26300171765 /* SwiftData.framework in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076E63172E123CA6002272B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EA6CE12E31E26300171765 /* SwiftData.framework */,
+				076E63182E123CA6002272B1 /* WidgetKit.framework */,
+				076E631A2E123CA7002272B1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07A95EF12D9849F300044A7A = {
+			isa = PBXGroup;
+			children = (
+				07A95EFC2D9849F300044A7A /* rutin */,
+				077FAE712E12DE7C007790C5 /* LiveActivity */,
+				07EA6CCF2E31DFB900171765 /* rutinWidgets */,
+				076E63172E123CA6002272B1 /* Frameworks */,
+				07A95EFB2D9849F300044A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A95EFB2D9849F300044A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A95EFA2D9849F300044A7A /* rutin.app */,
+				077FAE6E2E12DE7C007790C5 /* liveactivityExtension.appex */,
+				07EA6CCC2E31DFB800171765 /* rutinWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077FAE6D2E12DE7C007790C5 /* liveactivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077FAE822E12DE7E007790C5 /* Build configuration list for PBXNativeTarget "liveactivityExtension" */;
+			buildPhases = (
+				077FAE6A2E12DE7C007790C5 /* Sources */,
+				077FAE6B2E12DE7C007790C5 /* Frameworks */,
+				077FAE6C2E12DE7C007790C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				077FAE712E12DE7C007790C5 /* LiveActivity */,
+			);
+			name = liveactivityExtension;
+			productName = liveactivityExtension;
+			productReference = 077FAE6E2E12DE7C007790C5 /* liveactivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		07A95EF92D9849F300044A7A /* rutin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A95F082D9849F400044A7A /* Build configuration list for PBXNativeTarget "rutin" */;
+			buildPhases = (
+				07A95EF62D9849F300044A7A /* Sources */,
+				07A95EF72D9849F300044A7A /* Frameworks */,
+				07A95EF82D9849F300044A7A /* Resources */,
+				076E63312E123CA9002272B1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077FAE802E12DE7E007790C5 /* PBXTargetDependency */,
+				07EA6CDA2E31DFBC00171765 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07A95EFC2D9849F300044A7A /* rutin */,
+			);
+			name = rutin;
+			packageProductDependencies = (
+				072DD4142DE8243500157BF8 /* RevenueCat */,
+			);
+			productName = Tymi;
+			productReference = 07A95EFA2D9849F300044A7A /* rutin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07EA6CCB2E31DFB800171765 /* rutinWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EA6CDE2E31DFBC00171765 /* Build configuration list for PBXNativeTarget "rutinWidgetsExtension" */;
+			buildPhases = (
+				07EA6CC82E31DFB800171765 /* Sources */,
+				07EA6CC92E31DFB800171765 /* Frameworks */,
+				07EA6CCA2E31DFB800171765 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				07EA6CCF2E31DFB900171765 /* rutinWidgets */,
+			);
+			name = rutinWidgetsExtension;
+			productName = rutinWidgetsExtension;
+			productReference = 07EA6CCC2E31DFB800171765 /* rutinWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A95EF22D9849F300044A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					077FAE6D2E12DE7C007790C5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					07A95EF92D9849F300044A7A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					07EA6CCB2E31DFB800171765 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 07A95EF52D9849F300044A7A /* Build configuration list for PBXProject "rutin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				"ky-KG",
+				Base,
+				"zh-Hans",
+				es,
+				fr,
+				de,
+				"pt-BR",
+				ja,
+				ko,
+				hi,
+				"zh-HK",
+				"zh-Hant",
+				tr,
+				kk,
+				vi,
+				it,
+				id,
+			);
+			mainGroup = 07A95EF12D9849F300044A7A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				072DD4132DE8243500157BF8 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 07A95EFB2D9849F300044A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A95EF92D9849F300044A7A /* rutin */,
+				077FAE6D2E12DE7C007790C5 /* liveactivityExtension */,
+				07EA6CCB2E31DFB800171765 /* rutinWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077FAE6C2E12DE7C007790C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		07A95EF82D9849F300044A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		07EA6CCA2E31DFB800171765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077FAE6A2E12DE7C007790C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		07A95EF62D9849F300044A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		07EA6CC82E31DFB800171765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077FAE802E12DE7E007790C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077FAE6D2E12DE7C007790C5 /* liveactivityExtension */;
+			targetProxy = 077FAE7F2E12DE7E007790C5 /* PBXContainerItemProxy */;
+		};
+		07EA6CDA2E31DFBC00171765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07EA6CCB2E31DFB800171765 /* rutinWidgetsExtension */;
+			targetProxy = 07EA6CD92E31DFBC00171765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077FAE832E12DE7E007790C5 /* Debug configuration for PBXNativeTarget "liveactivityExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LiveActivity/LiveActivity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = liveactivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveActivityExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanbayserkeev.rutin.liveactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077FAE842E12DE7E007790C5 /* Release configuration for PBXNativeTarget "liveactivityExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LiveActivity/LiveActivity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = liveactivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveActivityExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanbayserkeev.rutin.liveactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07A95F062D9849F400044A7A /* Debug configuration for PBXProject "rutin" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07A95F072D9849F400044A7A /* Release configuration for PBXProject "rutin" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A95F092D9849F400044A7A /* Debug configuration for PBXNativeTarget "rutin" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconDark,AppIconLight,AppIconMinimalDark,AppIconMinimalLight,AppIconPaper,AppIconSilverBlue,AppIconClockDark,AppIconClockLight";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = rutin/rutin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = rutin/Resources;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = rutin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "rutin";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanbayserkeev.rutin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07A95F0A2D9849F400044A7A /* Release configuration for PBXNativeTarget "rutin" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconDark,AppIconLight,AppIconMinimalDark,AppIconMinimalLight,AppIconPaper,AppIconSilverBlue,AppIconClockDark,AppIconClockLight";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = rutin/rutin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = rutin/Resources;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = rutin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "rutin";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanbayserkeev.rutin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07EA6CDC2E31DFBC00171765 /* Debug configuration for PBXNativeTarget "rutinWidgetsExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = rutinWidgets/rutinWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rutinWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rutinWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanbayserkeev.rutin.rutinWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07EA6CDD2E31DFBC00171765 /* Release configuration for PBXNativeTarget "rutinWidgetsExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = rutinWidgets/rutinWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXCBCPV7Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rutinWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rutinWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanbayserkeev.rutin.rutinWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077FAE822E12DE7E007790C5 /* Build configuration list for PBXNativeTarget "liveactivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FAE832E12DE7E007790C5 /* Debug configuration for PBXNativeTarget "liveactivityExtension" */,
+				077FAE842E12DE7E007790C5 /* Release configuration for PBXNativeTarget "liveactivityExtension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		07A95EF52D9849F300044A7A /* Build configuration list for PBXProject "rutin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A95F062D9849F400044A7A /* Debug configuration for PBXProject "rutin" */,
+				07A95F072D9849F400044A7A /* Release configuration for PBXProject "rutin" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		07A95F082D9849F400044A7A /* Build configuration list for PBXNativeTarget "rutin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A95F092D9849F400044A7A /* Debug configuration for PBXNativeTarget "rutin" */,
+				07A95F0A2D9849F400044A7A /* Release configuration for PBXNativeTarget "rutin" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		07EA6CDE2E31DFBC00171765 /* Build configuration list for PBXNativeTarget "rutinWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EA6CDC2E31DFBC00171765 /* Debug configuration for PBXNativeTarget "rutinWidgetsExtension" */,
+				07EA6CDD2E31DFBC00171765 /* Release configuration for PBXNativeTarget "rutinWidgetsExtension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		072DD4132DE8243500157BF8 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.25.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		072DD4142DE8243500157BF8 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072DD4132DE8243500157BF8 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 07A95EF22D9849F300044A7A /* Project object */;
+}
