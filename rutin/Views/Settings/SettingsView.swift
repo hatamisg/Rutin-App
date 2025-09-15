@@ -15,14 +15,6 @@ struct SettingsView: View {
         List {
             ProSettingsSection()
             
-#if DEBUG
-            Section("Debug Controls") {
-                Button("Toggle Pro Status") {
-                    ProManager.shared.toggleProStatusForTesting()
-                }
-            }
-#endif
-            
             Section {
                 AppearanceSection()
                 WeekStartSection()
@@ -123,59 +115,7 @@ struct SettingsView: View {
                 }
             }
             
-            AboutSection()
             
-            Section {
-                VStack(spacing: 16) {
-                    HStack(spacing: 20) {
-                        Button {
-                            if let url = URL(string: "https://github.com/amanbayserkeev0377/Teymia-Habit") {
-                                UIApplication.shared.open(url)
-                            }
-                        } label: {
-                            Image("3d_soc_github")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 60, height: 60)
-                        }
-                        .buttonStyle(BorderlessButtonStyle())
-                        
-                        Button {
-                            if let url = URL(string: "https://instagram.com/teymia.habit") {
-                                UIApplication.shared.open(url)
-                            }
-                        } label: {
-                            Image("3d_soc_instagram")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 60, height: 60)
-                        }
-                        .buttonStyle(BorderlessButtonStyle())
-                    }
-                    VStack(spacing: 4) {
-                        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.4"
-                        
-                        Text("rutin – \("version".localized) \(version)")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
-                            .multilineTextAlignment(.center)
-                        
-                        HStack(spacing: 4) {
-                            Text("made_with".localized)
-                            Image(systemName: "heart.fill")
-                            Text("in_kyrgyzstan".localized)
-                            Text("🇰🇬")
-                        }
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                    }
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.top, -16)
-            }
-            .listRowSeparator(.hidden)
-            .listRowBackground(Color.clear)
-            .listSectionSeparator(.hidden)
         }
         .listStyle(.insetGrouped)
         .navigationTitle("settings".localized)
